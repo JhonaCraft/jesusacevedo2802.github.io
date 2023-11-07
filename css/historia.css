@@ -160,7 +160,7 @@ que es en la pantalla*/
         0deg,
         rgba(0, 0, 0, 0.192),
         rgba(0, 0, 0, 0.178)
-    ),url(/html/imagenes/img1.png);
+    ),url(/imagenes/img1.png);
     background-position: left center;
     background-size: cover;
 }

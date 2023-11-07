@@ -158,7 +158,7 @@ que es en la pantalla*/
         0deg,   
         rgba(0, 0, 0, 0.288),
         rgba(0, 0, 0, 0.164)
-    ),url(/html/imagenes/personajes-principal.png);
+    ),url(/imagenes/personajes-principal.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -381,7 +381,7 @@ footer{
         0deg,
         rgba(134, 123, 123, 0.507),
         rgba(119, 112, 112, 0.459)
-    ),url(/html/personajes-imagenes/zale2.png);
+    ),url(/personajes-imagenes/zale2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -398,7 +398,7 @@ footer{
         0deg,
         rgba(134, 123, 123, 0.507),
         rgba(119, 112, 112, 0.459)
-    ),url(/html/personajes-imagenes/valere2.png);
+    ),url(/personajes-imagenes/valere2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -415,7 +415,7 @@ footer{
         0deg,
         rgba(255, 255, 255, 0.507),
         rgba(0, 0, 0, 0.459)
-    ),url(/html/personajes-imagenes/garl2.png);
+    ),url(/personajes-imagenes/garl2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -432,7 +432,7 @@ footer{
         0deg,
         rgba(134, 123, 123, 0.507),
         rgba(119, 112, 112, 0.459)
-    ),url(/html/personajes-imagenes/serai2.png);
+    ),url(/personajes-imagenes/serai2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -449,7 +449,7 @@ footer{
         0deg,
         rgba(134, 123, 123, 0.507),
         rgba(119, 112, 112, 0.459)
-    ),url(/html/personajes-imagenes/reshan2.png);
+    ),url(/personajes-imagenes/reshan2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -466,7 +466,7 @@ footer{
         0deg,
         rgba(134, 123, 123, 0.644),
         rgba(119, 112, 112, 0.685)
-    ),url(/html/personajes-imagenes/bstya2.png);
+    ),url(/personajes-imagenes/bstya2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;

@@ -88,7 +88,7 @@ header a:hover{
         0deg,   
         rgba(0, 0, 0, 0.685),
         rgba(0, 0, 0, 0.623)
-    ),url(/html/imagenes/habilidades2.png);
+    ),url(/imagenes/habilidades2.png);
     background-position: top top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,7 +114,7 @@ header a:hover{
     height: 70vh;
 }
 #zale h2{
-    background-image: url(/html/personajes-imagenes/Zale2.png);
+    background-image: url(/personajes-imagenes/Zale2.png);
     background-position: center;
 }
 
@@ -132,7 +132,7 @@ header a:hover{
 }
 
 #valere h2{
-    background-image: url(/html/personajes-imagenes/valere2.png);
+    background-image: url(/personajes-imagenes/valere2.png);
     background-position: center;
 }
 
@@ -146,7 +146,7 @@ header a:hover{
 }
 
 #garl h2{
-    background-image: url(/html/personajes-imagenes/garl2.png);
+    background-image: url(/personajes-imagenes/garl2.png);
     background-position: top;
 }
 
@@ -160,7 +160,7 @@ header a:hover{
 }
 
 #serai h2{
-    background-image: url(/html/personajes-imagenes/serai2.png);
+    background-image: url(/personajes-imagenes/serai2.png);
     background-position: right;
 }
 
@@ -174,7 +174,7 @@ header a:hover{
 }
 
 #reshan h2{
-    background-image: url(/html/personajes-imagenes/reshan2.png);
+    background-image: url(/personajes-imagenes/reshan2.png);
     background-position: right;
 }
 
@@ -188,7 +188,7 @@ header a:hover{
 }
 
 #bstya h2{
-    background-image: url(/html/personajes-imagenes/bstya2.png);
+    background-image: url(/personajes-imagenes/bstya2.png);
     background-position: -290px 980px;
 }
 
@@ -245,7 +245,7 @@ footer{
         0deg,   
         rgba(0, 0, 0, 0.685),
         rgba(0, 0, 0, 0.623)
-        ),url(/html/personajes-imagenes/zale2.png);
+        ),url(/personajes-imagenes/zale2.png);
         background-position: top top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -260,7 +260,7 @@ footer{
         0deg,   
         rgba(0, 0, 0, 0.685),
         rgba(0, 0, 0, 0.623)
-        ),url(/html/personajes-imagenes/valere2.png);
+        ),url(/personajes-imagenes/valere2.png);
         background-position: top top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -275,7 +275,7 @@ footer{
         0deg,   
         rgba(0, 0, 0, 0.685),
         rgba(0, 0, 0, 0.623)
-        ),url(/html/personajes-imagenes/garl2.png);
+        ),url(/personajes-imagenes/garl2.png);
         background-position: top top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -290,7 +290,7 @@ footer{
         0deg,   
         rgba(0, 0, 0, 0.685),
         rgba(0, 0, 0, 0.623)
-        ),url(/html/personajes-imagenes/serai2.png);
+        ),url(/personajes-imagenes/serai2.png);
         background-position: top top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -305,7 +305,7 @@ footer{
         0deg,   
         rgba(0, 0, 0, 0.685),
         rgba(0, 0, 0, 0.623)
-        ),url(/html/personajes-imagenes/reshan2.png);
+        ),url(/personajes-imagenes/reshan2.png);
         background-position: top top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -320,7 +320,7 @@ footer{
         0deg,   
         rgba(0, 0, 0, 0.685),
         rgba(0, 0, 0, 0.623)
-        ),url(/html/personajes-imagenes/bstya2.png);
+        ),url(/personajes-imagenes/bstya2.png);
         background-position: top top;
         background-repeat: no-repeat;
         background-size: cover;
