@@ -199,7 +199,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ),url(/html/imagenes/historia.png);
+    ),url(/imagenes/historia.png);
 }
 
 .carta:nth-child(2){
@@ -207,7 +207,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ),url(/html/imagenes/personajes2.png);
+    ),url(/imagenes/personajes2.png);
 }
 
 .carta:nth-child(3){
@@ -215,7 +215,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ),url(/html/imagenes/habilidades.png);
+    ),url(/imagenes/habilidades.png);
 }
 
 .carta:nth-child(4){
@@ -223,7 +223,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ),url(/html/imagenes/combos.png);
+    ),url(/imagenes/combos.png);
 }
 
 .carta:nth-child(5){
@@ -231,7 +231,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ),url(/html/imagenes/exploracion.png);
+    ),url(/imagenes/exploracion.png);
 }
 /*configurar caracteristicas*/
 #caracteristicas .container{
@@ -243,7 +243,7 @@ header a:hover{
         rgba(255,255,255,0.5),
         rgba(255,255,255,0.5)
     )
-    ,url(/html/imagenes/caracteristicas.png);
+    ,url(/imagenes/caracteristicas.png);
     background-position: center center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -384,7 +384,7 @@ footer .container{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,25,0,0.5)
-    ),url(/html/imagenes/img7.png);
+    ),url(/imagenes/img7.png);
         text-align: center;
         margin: 0px;
         background-size: cover;
@@ -395,7 +395,7 @@ footer .container{
         0deg,
         rgba(0, 0, 0, 0.788),
         rgba(26, 3, 3, 0.815)
-        ),url(/html/imagenes/cascada.png); 
+        ),url(/imagenes/cascada.png); 
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -416,7 +416,7 @@ footer .container{
         0deg,
         rgba(255, 255, 255, 0.075),
         rgba(255, 255, 255, 0.089)
-    ),url(/html/imagenes/personajes.png);
+    ),url(/imagenes/personajes.png);
     background-repeat: no-repeat;
     }
 
@@ -444,7 +444,7 @@ footer .container{
         0deg,
         rgba(123, 255, 222, 0.452),
         rgba(93, 250, 255, 0.438)
-        ),url(/html/imagenes/caracteristicas.png); 
+        ),url(/imagenes/caracteristicas.png); 
         background-repeat: no-repeat;
         background-size: cover;
         height: 500px;
@@ -470,7 +470,7 @@ footer .container{
         0deg,
         rgba(255, 255, 255, 0.075),
         rgba(255, 255, 255, 0.089)
-    ),url(/html/imagenes/caracteristicas2.png);
+    ),url(/imagenes/caracteristicas2.png);
     background-repeat: no-repeat;
     border-radius: 50px;
 
