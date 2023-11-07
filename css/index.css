@@ -1,363 +1,365 @@
-*{
-    box-sizing: border-box;
-    
-}
-h1{font-size: 3.2em;}
-h2{font-size: 1.9em;
-text-align: center;}
-h3{font-size: 1.8em;}
+@media (max-width:480px){
+    *{
+        box-sizing: border-box;
+        
+    }
+    h1{font-size: 3.2em;}
+    h2{font-size: 1.9em;
+    text-align: center;}
+    h3{font-size: 1.8em;}
 
-html{
-    scroll-behavior: smooth;
-}
+    html{
+        scroll-behavior: smooth;
+    }
 
-body{
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+    body{
+        margin: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
-.color-acento{
-    color:rgb(255, 145, 0);
-}
-/* configuracion solo de la lista */
-li{
-    font-size: 1.4em;
-    padding: 5px 10px;
-    font-weight: bold;
-    margin: 0px;
-    color: rgb(14, 10, 71);
-}
+    .color-acento{
+        color:rgb(255, 145, 0);
+    }
+    /* configuracion solo de la lista */
+    li{
+        font-size: 1.4em;
+        padding: 5px 10px;
+        font-weight: bold;
+        margin: 0px;
+        color: rgb(14, 10, 71);
+    }
 
-#resumen li{
-    list-style: none;
-}
-
-
-/*configuracion de botones*/
-
-button{
-    font-size: 1.4em;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 12px;
-    border: 3px solid rgba(0, 42, 119, 0.9);
-    box-shadow: 2px 3px 20px rgba(1, 90, 60, 0.9);
-    color: white;
-    background-color: rgb(8, 74, 196);
-}
-
-button:hover{
-    background-color: rgb(0, 0, 163);
-    transition: background-color 0.4s ease;
-    cursor: pointer;
-}
-
-/*margen general*/
-.container{
-    max-width: 1200px;
-    margin: auto;
-}
-
-/*configurar cabecera*/
-header{
-    background-color: rgb(0, 0, 0);
-}
-
-/*configurar GameplayNow!*/
-header .logo{
-    margin:0;
-    padding: 25px 20px;
-    font-weight: bold;
-    color: rgb(59, 137, 255);
-    font-size: 1.5em;
-
-}
-
-/*configurar posicion de elementos*/
-header .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/*configurar elementos del nav*/
-header nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 20px;
-}
-/*configurar "indices" */
-header a{
-    padding: 4px;
-    text-decoration: none;
-    color: rgb(72, 182, 255);
-    transition: color 0.4s ease;
-    
-}
-
-header a:hover{
-    color:rgb(159, 241, 241)
-}
-
-/*configurar Hero*/
-
-#hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 80vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),url(/imagenes/pantalla.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-#hero h1{
-    padding: 10px 10px;
-    color: rgb(255, 255, 255);
-    /*agregar borde*/
-}
-
-/*Configurar resumen*/
-#resumen{
-
-    text-align: center;
-    margin-top: 0px;
-}
-
-#resumen h2{
-    color: rgb(0, 183, 255);
-}
-#resumen p{
-    color: aliceblue;
-    margin: 30px;
-    line-height: 1.5;
-}
-
-/* requisitos ocultos para movil */
-#resumen .texto-pc{
-    display: none;
-}
-
-#resumen .container{
-    display: flex;
-    text-align: center;
-    padding: 150px 20px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),url(/imagenes/cascada.png);
-    background-repeat: no-repeat;
-    background-position: center right;
-}
+    #resumen li{
+        list-style: none;
+    }
 
 
+    /*configuracion de botones*/
 
-/* configurar secciones */
-#secciones{
-    background-color: rgb(0, 30, 70); /*color de fondo para la seccion*/
-    padding-bottom: 20px;
-    text-align: center;
+    button{
+        font-size: 1.4em;
+        font-weight: bold;
+        padding: 10px 15px;
+        border-radius: 12px;
+        border: 3px solid rgba(0, 42, 119, 0.9);
+        box-shadow: 2px 3px 20px rgba(1, 90, 60, 0.9);
+        color: white;
+        background-color: rgb(8, 74, 196);
+    }
 
-}
+    button:hover{
+        background-color: rgb(0, 0, 163);
+        transition: background-color 0.4s ease;
+        cursor: pointer;
+    }
 
-#secciones .container{
-    padding: 40px 10px;
-}
+    /*margen general*/
+    .container{
+        max-width: 1200px;
+        margin: auto;
+    }
 
-#secciones p{
-    display: none;
-}
+    /*configurar cabecera*/
+    header{
+        background-color: rgb(0, 0, 0);
+    }
 
-/*configurar texto "secciones"*/
-#secciones h2{
-    color: rgb(112, 188, 255);
-}
+    /*configurar GameplayNow!*/
+    header .logo{
+        margin:0;
+        padding: 25px 20px;
+        font-weight: bold;
+        color: rgb(59, 137, 255);
+        font-size: 1.5em;
 
-/*propiedades de las cartas*/
-#secciones .carta{
-    color: rgb(255, 255, 255);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 70px 0px;
-    margin: 5px;
-    border-radius: 40px;
-}
+    }
 
-/*imagenes*/
-.carta:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),url(/imagenes/historia.png);
-}
+    /*configurar posicion de elementos*/
+    header .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.carta:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),url(/imagenes/personajes2.png);
-}
+    /*configurar elementos del nav*/
+    header nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    /*configurar "indices" */
+    header a{
+        padding: 4px;
+        text-decoration: none;
+        color: rgb(72, 182, 255);
+        transition: color 0.4s ease;
+        
+    }
 
-.carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),url(/imagenes/habilidades.png);
-}
+    header a:hover{
+        color:rgb(159, 241, 241)
+    }
 
-.carta:nth-child(4){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),url(/imagenes/combos.png);
-}
+    /*configurar Hero*/
 
-.carta:nth-child(5){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),url(/imagenes/exploracion.png);
-}
-/*configurar caracteristicas*/
-#caracteristicas .container{
-    padding: 60px 20px;
-    text-align: left;
-    padding-bottom: 60px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(255,255,255,0.5),
-        rgba(255,255,255,0.5)
-    )
-    ,url(/imagenes/caracteristicas.png);
-    background-position: center center;
-    background-size: auto;
-    background-repeat: no-repeat;
-}
+    #hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 80vh;
+        color: white;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url(/imagenes/pantalla.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
 
+    #hero h1{
+        padding: 10px 10px;
+        color: rgb(255, 255, 255);
+        /*agregar borde*/
+    }
 
-#caracteristicas h2{
-    color: rgb(20, 0, 109);
-    font-size: 2.2em;
-    margin-top: -30px;
-    padding-top: 20px;
-}
+    /*Configurar resumen*/
+    #resumen{
 
-/* ocultar imagen para movil */
-#caracteristicas .container img{
-    display: none;
-}
+        text-align: center;
+        margin-top: 0px;
+    }
 
-/* Configurar imagenes relacionadas */
-#imagenes{
-    background-color: rgb(185, 255, 255);
-    padding: 100px 20px 500px 0px;
-    height: 80vh;
-    position: center center;
-}
+    #resumen h2{
+        color: rgb(0, 183, 255);
+    }
+    #resumen p{
+        color: aliceblue;
+        margin: 30px;
+        line-height: 1.5;
+    }
 
-.slider{
-    text-align: center;
-    overflow: hidden;
-    margin: 50px auto 0px;
-    width: 470px;
-    height: auto;
-    
-}
+    /* requisitos ocultos para movil */
+    #resumen .texto-pc{
+        display: none;
+    }
 
-#imagenes .slider li{
-    list-style: none;
-    width: 100%;
-    
-
-}
-
-.slider ul{
-    display: flex;
-    padding: 0;
-    width: 400%;
-    animation: deslizar 14s infinite alternate ease-in-out;
-}
-.slider img{
-    width: 450px;
-    height: 300px;
-    
-}
+    #resumen .container{
+        display: flex;
+        text-align: center;
+        padding: 150px 20px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url(/imagenes/cascada.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
 
 
 
-@keyframes deslizar {
-    0%{margin-left: 0%;}
-    15%{margin-left: 0%;}
+    /* configurar secciones */
+    #secciones{
+        background-color: rgb(0, 30, 70); /*color de fondo para la seccion*/
+        padding-bottom: 20px;
+        text-align: center;
 
-    20%{margin-left: -100%;}
-    35%{margin-left: -100%;}
+    }
 
-    40%{margin-left: -200%;}
-    55%{margin-left: -200%;}
+    #secciones .container{
+        padding: 40px 10px;
+    }
 
-    60%{margin-left: -300%;}
-    75%{margin-left: -300%;}
+    #secciones p{
+        display: none;
+    }
 
-    80%{margin-left: -400%;}
-    95%{margin-left: -400%;}
+    /*configurar texto "secciones"*/
+    #secciones h2{
+        color: rgb(112, 188, 255);
+    }
 
-    95%{margin-left: -400%;}
-    100%{margin-left: -400%;}
-    
-}
+    /*propiedades de las cartas*/
+    #secciones .carta{
+        color: rgb(255, 255, 255);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 70px 0px;
+        margin: 5px;
+        border-radius: 40px;
+    }
 
-/* Configurar final */
+    /*imagenes*/
+    .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url(/imagenes/historia.png);
+    }
 
-#creditos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    color:rgb(0, 108, 197);
-    height: 50vh;
-}
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url(/imagenes/personajes2.png);
+    }
+
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url(/imagenes/habilidades.png);
+    }
+
+    .carta:nth-child(4){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url(/imagenes/combos.png);
+    }
+
+    .carta:nth-child(5){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url(/imagenes/exploracion.png);
+    }
+    /*configurar caracteristicas*/
+    #caracteristicas .container{
+        padding: 60px 20px;
+        text-align: left;
+        padding-bottom: 60px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(255,255,255,0.5),
+            rgba(255,255,255,0.5)
+        )
+        ,url(/imagenes/caracteristicas.png);
+        background-position: center center;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
 
 
-#creditos li{
-    list-style: none;
-    color: rgb(152, 198, 238);
-    margin-bottom: 5px;
-}
+    #caracteristicas h2{
+        color: rgb(20, 0, 109);
+        font-size: 2.2em;
+        margin-top: -30px;
+        padding-top: 20px;
+    }
 
-/* configurar footer */
+    /* ocultar imagen para movil */
+    #caracteristicas .container img{
+        display: none;
+    }
 
-footer p{
-    margin:0;
-}
+    /* Configurar imagenes relacionadas */
+    #imagenes{
+        background-color: rgb(185, 255, 255);
+        padding: 100px 20px 500px 0px;
+        height: 80vh;
+        position: center center;
+    }
 
-footer{
-    background-color: bisque;
-    color: rgb(66, 66, 66);
-}
+    .slider{
+        text-align: center;
+        overflow: hidden;
+        margin: 50px auto 0px;
+        width: 470px;
+        height: auto;
+        
+    }
 
-footer .container{
-    height: 7ch;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    #imagenes .slider li{
+        list-style: none;
+        width: 100%;
+        
 
+    }
+
+    .slider ul{
+        display: flex;
+        padding: 0;
+        width: 400%;
+        animation: deslizar 14s infinite alternate ease-in-out;
+    }
+    .slider img{
+        width: 450px;
+        height: 300px;
+        
+    }
+
+
+
+    @keyframes deslizar {
+        0%{margin-left: 0%;}
+        15%{margin-left: 0%;}
+
+        20%{margin-left: -100%;}
+        35%{margin-left: -100%;}
+
+        40%{margin-left: -200%;}
+        55%{margin-left: -200%;}
+
+        60%{margin-left: -300%;}
+        75%{margin-left: -300%;}
+
+        80%{margin-left: -400%;}
+        95%{margin-left: -400%;}
+
+        95%{margin-left: -400%;}
+        100%{margin-left: -400%;}
+        
+    }
+
+    /* Configurar final */
+
+    #creditos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        color:rgb(0, 108, 197);
+        height: 50vh;
+    }
+
+
+    #creditos li{
+        list-style: none;
+        color: rgb(152, 198, 238);
+        margin-bottom: 5px;
+    }
+
+    /* configurar footer */
+
+    footer p{
+        margin:0;
+    }
+
+    footer{
+        background-color: bisque;
+        color: rgb(66, 66, 66);
+    }
+
+    footer .container{
+        height: 7ch;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
 }
 
 @media (min-width: 680px){
